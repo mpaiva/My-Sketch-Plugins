@@ -1,6 +1,3 @@
-My-Sketch-Plugins
-=================
-
 # Getting Started with Sketch
 
 ##Overview
