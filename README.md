@@ -6,14 +6,14 @@ The [Sketch App](http://www.bohemiancoding.com/sketch/) by Bohemian Coding is a 
 
 As any newborn, it will take some time to get to a maturity level that we all expect it to get as a professional design application.
 
-One of the great advantages of Sketch, like [Sublime Text](http://www.sublimetext.com/), it has the ability to install open-source plugins writen by great people that advocates posting their code on GitHub. 
+One of the great advantages of Sketch, like [Sublime Text](http://www.sublimetext.com/), it has the ability to install open-source plugins written by great people that advocates posting their code on GitHub. 
 
 
 ##The goal here is..
 1. To get you started with Sketch by leading you to some quick tutorials, 
 2. Most importantly, setup a quick workflow where you will be able to install plugins in Sketch by - simply - clicking on the **Clone in Desktop** button on Github.
 
-I'm aiming this article to a designer that are not so familiar with GIT/GitHub shortcuts, hence 
+I'm aiming this article on designers that are not so familiar with GIT/GitHub shortcuts. the idea is to get designers to start using GitHub in a collaboratively 
 
 ##Quick Requirements
 **Mac Only** - First off. Windows users, at this point, the [Sketch App](http://www.bohemiancoding.com/sketch/)  is only available for Mac.
@@ -113,7 +113,7 @@ If you go into your [GitHub](http://github.com) account you will see the new rep
 ![New repo on github.com](http://cl.ly/image/11402j0R053a/Image%202014-02-12%20at%203.37.10%20PM.png)
 
 ###Step 3 - Find some cool plugins
-Since plugins for Sketch are writen in JavaScript, you will find plugins anywhere on the web, but most likely, the large majority will be on GitHub. One particular resource on GitHub is [bomberstudios](https://gist.github.com/bomberstudios). They have compiled a great list of Sketch plugins into the following Gist:
+Since plugins for Sketch are written in JavaScript, you will find plugins anywhere on the web, but most likely, the large majority will be on GitHub. One particular resource on GitHub is [bomberstudios](https://gist.github.com/bomberstudios). They have compiled a great list of Sketch plugins into the following Gist:
 
 ####[https://gist.github.com/bomberstudios/7694497](https://gist.github.com/bomberstudios/7694497)
 
@@ -129,10 +129,6 @@ Once in the plugin's main repository page, simply click on the `Clone in Desktop
 This will **launch the GitHub Desktop** App, you may be alerted by your browser that the link is trying to launch your desktop application, you may accept it. 
 
 ![Click on the Clone in Desktop button](http://cl.ly/image/142M042i2w2L/CloneInDesktop.png)
-
-
-
-
 
 
 ###Step 5 - Select your Favorite shortcut
@@ -158,7 +154,7 @@ Go to your Sketch app, select the Text tool set the text frame area on the artbo
 ---
 
 ###Step 7 - Push your changes to GitHub
-After all this work, you will appreciate the power of code sharing a bit more. I'd recommend you commiting your changes to GitHub for a couple of reasons:
+After all this work, you will appreciate the power of code sharing a bit more. I'd recommend you committing your changes to GitHub for a couple of reasons:
 
 1. You will have a backup of your plugins;
 2. If by any chance you install the Sketch app in a new machine, you can always download all your plugin collection very quickly;
@@ -168,7 +164,7 @@ After all this work, you will appreciate the power of code sharing a bit more. I
 
 Once you go to your repositories, you will see the plugins you have installed on your main list of repositories. 
 
-#####Select the My SKetch Plugins repository
+#####Select the My Sketch Plugins repository
 All of the plugins you have installed is located inside in your **My Sketch Plugins** repository.
 
 #####Select the Changes tab
