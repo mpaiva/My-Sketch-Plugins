@@ -193,39 +193,4 @@ With this structure, you should be able to keep things organized in a way that y
 
 Please drop me a line or do a pull-request if you would like to expand this forward.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+-end
