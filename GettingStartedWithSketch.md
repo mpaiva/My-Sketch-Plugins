@@ -82,11 +82,31 @@ Hit <kbd>Cmd + N</kbd> or go to `File > New Repository...` to create a **New Rep
 
 ![Create New Repository](http://cl.ly/image/1N2o0W271R22/Image%202014-02-12%20at%202.05.19%20PM.png)
 
-The following dialog will popup, add the `Name`, `Description` and choose the "**My Sketch Plugins**" folder from your favorite sidebar as your `Local Path`. Make sure to **check** the `Push to GitHub` option:
+The following dialog will popup, add the `Name`, `Description` as follows.
 
 ![Choose path](http://cl.ly/image/2n2E2R2D1t13/Image%202014-02-12%20at%203.28.57%20PM.png)
 
-Then hit the `Create Repository` button. You should see an empty state screen for your new repository on GitHub.
+##### Important step ahead
+For the `Local Path` you will need to select the path carefully: 
+
+1. Go to your Favorite path "My Sketch Plugins"  
+2. **Then choose its *PARENT FOLDER* `Plugins`**.  
+
+![Choose the parent folder PLUGIN](http://cl.ly/image/2x162O1q110g/Image%202014-02-12%20at%204.32.11%20PM.png)
+
+#####Push to GitHub option
+Make sure to **check** the `Push to GitHub` option, this indicates that you will have a backup on GitHub.
+
+#####Create Repository button
+Then hit the `Create Repository` button. 
+
+#####Repository already exists?
+Since we had already created a folder with the same name, GH app will need to confirm that you want to use the same folder. Hit the `Add` button and go on.
+
+![Repository already exists](http://cl.ly/image/2j1p1y2C0t1x/Image%202014-02-12%20at%204.34.23%20PM.png) 
+
+##### Repository created
+You should see an empty state screen for your new repository on GitHub.
 
 If you go into your [GitHub](http://github.com) account you will see the new repository under the **Repositories** tab
 
@@ -108,9 +128,12 @@ Once in the plugin's main repository page, simply click on the `Clone in Desktop
 
 This will **launch the GitHub Desktop** App, you may be alerted by your browser that the link is trying to launch your desktop application, you may accept it. 
 
-#####Here comes the important step...
-
 ![Click on the Clone in Desktop button](http://cl.ly/image/142M042i2w2L/CloneInDesktop.png)
+
+
+
+
+
 
 ###Step 5 - Select your Favorite shortcut
 
@@ -125,15 +148,50 @@ as follows then hit the `Clone` button.
 
 ---
 
-##All done!
-You should be good to go! To install more plugins, simply click on the `Clone in Desktop` and select your Favorite folder.
+###Step 6 - Test the Plugin
 
 #####Let's test the installed plugin on Sketch...
+Go to your Sketch app, select the Text tool set the text frame area on the artboard, then check out the Plugin menu, as illustrated below.
+
+![LoremIpsumTest](http://cl.ly/image/1Q1h0O2S0E35/testingLoremIpsum.gif)
+
+---
+
+###Step 7 - Push your changes to GitHub
+After all this work, you will appreciate the power of code sharing a bit more. I'd recommend you commiting your changes to GitHub for a couple of reasons:
+
+1. You will have a backup of your plugins;
+2. If by any chance you install the Sketch app in a new machine, you can always download all your plugin collection very quickly;
+3. You collaborate your plugins with your team members;  
+
+#####Go to your GitHub Desktop application
+
+Once you go to your repositories, you will see the plugins you have installed on your main list of repositories. 
+
+#####Select the My SKetch Plugins repository
+All of the plugins you have installed is located inside in your **My Sketch Plugins** repository.
+
+#####Select the Changes tab
+The `Changes` tab on the left side will display all the changes that have occurred within this repo.  
+
+![](http://cl.ly/image/2p0q0s2y1w1a/Image%202014-02-12%20at%205.44.33%20PM.png)
+
+1. Enable the `Commit & Sync` option if it's grey ![](http://cl.ly/image/3E321e1k3z1t/Image%202014-02-12%20at%205.47.18%20PM.png) - this should be green.
+2. Enter a `Summary` and `Description`
+3. Check the `Select All` checkbox
+4. then hit the `Commit & Sync` button to push your changes to the GitHub server;
+
+#####Cheers!
+Your team members should now be able to see the great plugins you have installed.
 
 
+#Conclusion
+I know I could have created a single-level plugins folder, but I simply didn't want to either mess with the application's plugins folder permissions for obvious reasons nor have a repository on my Github called "Plugins"
+
+With this structure, you should be able to keep things organized in a way that you can share your plugin repository with others.
 
 
-
+Please drop me a line or do a pull-request if you would like to expand this forward.
 
 
 
