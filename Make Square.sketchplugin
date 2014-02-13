@@ -1,0 +1,7 @@
+// Make Selected Objects Square
+
+for (var i=0; i<selection.length(); i++) {
+	var layer = selection[i];
+	[[layer frame] setHeight:[[layer frame] width]];
+}
+

@@ -1,0 +1,10 @@
+//Export the first artboard in the document to a file.
+//Note format is derived from the extension. This script requires Sketch 2.2. or higher
+
+var artboard = [[[doc currentPage] artboards] firstObject];
+[doc saveArtboardOrSlice:artboard toFile:"~/desktop/artboard.png"];
+
+//Another thing you can is to export everything in the canvas to a file in pretty much the same way
+
+var canvas = [[doc currentPage] contentBounds];
+[doc saveArtboardOrSlice:canvas toFile:"~/desktop/canvas.png"];

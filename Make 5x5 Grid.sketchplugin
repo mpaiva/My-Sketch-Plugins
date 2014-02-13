@@ -1,0 +1,15 @@
+// Make a 5x5 Grid of an Object
+
+var layer = selection[0];
+var frame = [layer frame];
+
+for (var x=0; x<5; x++) {
+	for (var y=0; y<5; y++) {
+		if (x > 0 || y > 0) {
+			var copy = [layer duplicate];
+			var frame2 = [copy frame];
+			[frame2 setX:[frame x] + ([frame width]+10)*x];
+			[frame2 setY:[frame y] + ([frame height]+10)*y];
+		}
+	}
+}

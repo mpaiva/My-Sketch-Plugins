@@ -1,0 +1,4 @@
+//Zooms into an arbitrary Area. Easy to retrieve this area using [layer absoluteRect] as in the example
+
+var layer = selection[0];
+[[doc currentView] zoomToFitRect:[layer absoluteRect]];

@@ -1,0 +1,11 @@
+// Duplicate the selected object a number of times
+
+var times = [[doc askForUserInput:"How many times?" initialValue:10] integerValue];
+var layer = selection[0];
+var frame = [layer frame];
+
+for (var x=1; x<times; x++) {
+	var copy = [layer duplicate];
+	var frame2 = [copy frame];
+	[frame2 setX:[frame x] + ([frame width]+10)*x];
+}
