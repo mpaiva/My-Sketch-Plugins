@@ -131,13 +131,6 @@ This will **launch the GitHub Desktop** App, you may be alerted by your browser 
 ![Click on the Clone in Desktop button](http://cl.ly/image/142M042i2w2L/CloneInDesktop.png)
 
 
-<<<<<<< HEAD:GettingStartedWithSketch.md
-
-
-
-
-=======
->>>>>>> e90c5b724a412f885a25e4e54238991a5d3f83fb:README.md
 ###Step 5 - Select your Favorite shortcut
 
 The GitHub application will prompt you to select a location to place your cloned folder. 
@@ -161,11 +154,8 @@ Go to your Sketch app, select the Text tool set the text frame area on the artbo
 ---
 
 ###Step 7 - Push your changes to GitHub
-<<<<<<< HEAD:GettingStartedWithSketch.md
-After all this work, you will appreciate the power of code sharing a bit more. I'd recommend you commiting your changes to GitHub for a couple of reasons:
-=======
+
 After all this work, you will appreciate the power of code sharing a bit more. I'd recommend you committing your changes to GitHub for a couple of reasons:
->>>>>>> e90c5b724a412f885a25e4e54238991a5d3f83fb:README.md
 
 1. You will have a backup of your plugins;
 2. If by any chance you install the Sketch app in a new machine, you can always download all your plugin collection very quickly;
@@ -175,17 +165,13 @@ After all this work, you will appreciate the power of code sharing a bit more. I
 
 Once you go to your repositories, you will see the plugins you have installed on your main list of repositories. 
 
-<<<<<<< HEAD:GettingStartedWithSketch.md
-#####Select the My SKetch Plugins repository
-=======
 #####Select the My Sketch Plugins repository
->>>>>>> e90c5b724a412f885a25e4e54238991a5d3f83fb:README.md
 All of the plugins you have installed is located inside in your **My Sketch Plugins** repository.
 
 #####Select the Changes tab
 The `Changes` tab on the left side will display all the changes that have occurred within this repo.  
 
-![](http://cl.ly/image/2p0q0s2y1w1a/Image%202014-02-12%20at%205.44.33%20PM.png)
+![Select Changes](http://cl.ly/image/2p0q0s2y1w1a/Image%202014-02-12%20at%205.44.33%20PM.png)
 
 1. Enable the `Commit & Sync` option if it's grey ![](http://cl.ly/image/3E321e1k3z1t/Image%202014-02-12%20at%205.47.18%20PM.png) - this should be green.
 2. Enter a `Summary` and `Description`
@@ -204,8 +190,4 @@ With this structure, you should be able to keep things organized in a way that y
 
 Please drop me a line or do a pull-request if you would like to expand this forward.
 
-<<<<<<< HEAD:GettingStartedWithSketch.md
 -end
-=======
--end
->>>>>>> e90c5b724a412f885a25e4e54238991a5d3f83fb:README.md
