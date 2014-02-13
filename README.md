@@ -13,7 +13,7 @@ One of the great advantages of Sketch, like [Sublime Text](http://www.sublimetex
 1. To get you started with Sketch by leading you to some quick tutorials, 
 2. Most importantly, setup a quick workflow where you will be able to install plugins in Sketch by - simply - clicking on the **Clone in Desktop** button on Github.
 
-I'm aiming this article on designers that are not so familiar with GIT/GitHub shortcuts. the idea is to get designers to start using GitHub in a collaboratively 
+I'm aiming this article on designers that are not so familiar with GitHub's workflow. Hopefully we can find ways to get designers using GitHub in a collaboratively manner. 
 
 ##Quick Requirements
 **Mac Only** - First off. Windows users, at this point, the [Sketch App](http://www.bohemiancoding.com/sketch/)  is only available for Mac.
