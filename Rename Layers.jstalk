@@ -1,8 +1,0 @@
-//Rename the selected objects given a base name plus sequential numbers
-
-var basename = [doc askForUserInput:'Base Name:' initialValue:'layer'];
-
-for (var i=0; i<selection.length(); i++) {
-	var layer = selection[i];
-	[layer setName:basename + ' ' + i.toString()];
-}
