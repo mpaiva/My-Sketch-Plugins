@@ -60,7 +60,7 @@ Open Finder, the navigate to `Go > Go to Folder...`
 #####Populate folder field
 Enter the following path and hit the `Go` button
 
-	~/Library/Containers/com.bohemiancoding.sketch/Data/Library/Application Support/sketch/Plugins
+	~/Library/Containers/com.bohemiancoding.sketch/Data/Library/Application\ Support/sketch/Plugins
 
 #####Create new folder
 Create a new folder - inside `Plugins` - called `My Sketch Plugins`, as follows:
